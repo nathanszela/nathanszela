@@ -1,9 +1,9 @@
 # Nathan Szelagowski
 
-MSc Business Engineering — Data Analytics, Ghent University.
+MSc Business Engineering — Data Analytics, Ghent University (graduated with distinction, 2026).
 I work on the part of data science that happens before the model: understanding the business question, finding out what the data can and cannot support, and saying so plainly.
 
-Available from **January 2027** for a six-month internship in Spain (data, analytics, or fintech), funded by an **Erasmus+ Traineeship for Graduates** grant. The tripartite Learning Agreement is provided by my university, so no Spanish *convenio de prácticas* is needed.
+Moving to Spain in **January 2027** and looking for a junior role in data, analytics or finance, working in English (Madrid, Barcelona, Valencia, Málaga).
 
 📍 Belgium → Spain · 🗣️ French (native), English (C1), Dutch (B2), Spanish (improving)
 [LinkedIn](https://www.linkedin.com/in/nathan-szelagowski/) · nathan.szelagowski@gmail.com
@@ -68,7 +68,7 @@ The client's data is confidential and is not reproduced here.
 ---
 
 ### Master's thesis — natural disasters and multinational affiliates
-*UGent · 2025–2026 · defence September 2026*
+*UGent · 2025–2026 · defended September 2026*
 
 An empirical study of how natural disaster shocks affect the activity of multinational firms' foreign affiliates, on a firm-level panel of over 100,000 observations. Estimation with PPML and high-dimensional fixed effects, clustered standard errors, and robustness checks across alternative measures of disaster intensity.
 
