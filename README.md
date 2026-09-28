@@ -12,7 +12,7 @@ Moving to Spain in **January 2027** and looking for a junior role in data, analy
 
 ## About this profile
 
-Most of my work so far was done under university or client confidentiality agreements: the code and the data belong to the companies involved and are not mine to publish. What follows describes the methods and what I learned from them. I am happy to walk through any of it in detail, including the parts that did not work.
+Most of my work so far was done under university or client confidentiality agreements: the code and the data belong to the companies involved and are not mine to publish. The exception is my master's thesis, whose full code is [public here](https://github.com/nathanszela/multinational-networks-natural-disasters). For the rest, what follows describes the methods and what I learned from them. I am happy to walk through any of it in detail, including the parts that did not work.
 
 ---
 
@@ -70,9 +70,13 @@ The client's data is confidential and is not reproduced here.
 ### Master's thesis — natural disasters and multinational affiliates
 *UGent · 2025–2026 · defended September 2026*
 
-An empirical study of how natural disaster shocks affect the activity of multinational firms' foreign affiliates, on a firm-level panel of over 100,000 observations. Estimation with PPML and high-dimensional fixed effects, clustered standard errors, and robustness checks across alternative measures of disaster intensity.
+How does the presence of European multinational affiliates relate to natural disaster exposure in host countries? I built a panel of 104,453 observations (29 European home countries × up to 185 host countries × industry × year, 2008–2019) by merging Eurostat FATS, EM-DAT, World Bank, OECD TiVA and CEPII data, then estimated cross-sectional gravity models and PPML local projections with high-dimensional fixed effects.
 
-Part of the work was arguing about what the disaster data actually measures. Reporting thresholds change over time and across countries, which mechanically affects any count-based measure, and results that ran against the expected sign are reported rather than dropped.
+Part of the work was arguing about what the disaster data actually measures. I documented that better-governed countries tend to report more disasters per capita, but less severe ones, so a count-based exposure measure partly captures reporting capacity. Results that ran against the expected sign, or that did not survive robustness checks, are reported as such rather than dropped.
+
+**➡️ [Code, notebooks and full thesis](https://github.com/nathanszela/multinational-networks-natural-disasters)**
+
+`Python` `pandas` `PPML` `pyfixest` `panel data` `local projections`
 
 ---
 
@@ -84,4 +88,4 @@ Part of the work was arguing about what the disaster data actually measures. Rep
 
 ---
 
-*Everything above was produced under academic or client confidentiality. Code and data are not published. Happy to discuss the methods and the trade-offs in an interview.*
+*Apart from the thesis, everything above was produced under academic or client confidentiality, so code and data are not published. Happy to discuss the methods and the trade-offs in an interview.*
